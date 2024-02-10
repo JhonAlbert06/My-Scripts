@@ -1,0 +1,13 @@
+1. Abre el crontab para editar:
+
+crontab -e
+
+2. Añade la siguiente línea al final del archivo para ejecutar el script cada 5 horas:
+
+0 */5 * * * /home/deploy/script/backup_script.sh
+
+3. Save: Ctrl + O
+
+4. Close: Ctrl + X
+
+
